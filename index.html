@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Helper House Is Missing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;700;800&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="ticker"><span>
+  ⚠ CRISIS LEVEL: MAXIMUM ⚠ HELPER HOUSE ABSENCE OFFICIALLY UPGRADED FROM "SITUATION" TO "CRISIS" ⚠
+  GROUP CHAT ACTIVITY DOWN 94% ⚠ LOCAL DUMBBELLS REPORT "A BAD FEELING" ⚠ PLEASE REMAIN CALM ⚠
+</span></div>
+
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <div class="badge">HH</div>
+    <div class="brand-name">Helper House Crisis Committee<small>Est. during the crisis</small></div>
+  </a>
+  <nav>
+    <a href="index.html" class="active">Missing</a>
+    <a href="calm.html">The Calm Before the Storm</a>
+    <a href="legacy.html">His Legacy</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="status-pill"><span class="dot"></span>ACTIVE CRISIS</div>
+  <h1>WHERE IS<br>HELPER HOUSE?</h1>
+  <p class="sub">He was here. Now he isn't. We have questions.</p>
+</section>
+
+<main>
+
+  <!-- Profile -->
+  <article class="card">
+    <div class="profile">
+      <div class="mugshot">
+        <img src="helper-house.webp" alt="Helper House on a locker-room bench in a light-blue quarter-zip, looking at his phone">
+        <div class="qmark" aria-hidden="true">?</div>
+        <div class="tag">LAST KNOWN PHOTO</div>
+      </div>
+      <div>
+        <p class="eyebrow">Case File #001</p>
+        <h2>"Helper House"</h2>
+        <p class="lede">a.k.a. The Quarter-Zip Phantom · He Who Scrolls · The Bench Whisperer</p>
+        <table class="facts">
+          <tr><th>Status</th><td><strong>CRISIS</strong> (upgraded by unanimous group-chat vote)</td></tr>
+          <tr><th>Last seen</th><td>A locker-room bench, deeply absorbed in his phone</td></tr>
+          <tr><th>Wearing</th><td>Sky-blue quarter-zip of unshakeable confidence, khaki shorts, sneakers built for greatness</td></tr>
+          <tr><th>Distinguishing features</th><td>Thumbs of a champion. Aura of a man about to hit the gym.</td></tr>
+          <tr><th>Past actions</th><td>Questionable. Under review. Paused for the duration of the crisis.</td></tr>
+          <tr><th>Approach with</th><td>Caution, and a protein shake</td></tr>
+        </table>
+      </div>
+    </div>
+  </article>
+
+  <!-- Countdown -->
+  <section class="card" id="return">
+    <p class="eyebrow">Scientists agree</p>
+    <h2>⏳ Countdown to the Inevitable Return</h2>
+    <p class="lede">He will come back. He will go straight to the gym. He will emerge <em>freakier than ever before</em>. There is nothing any of us can do but wait.</p>
+
+    <div class="countdown" id="countdown">
+      <div class="unit"><div class="num" id="d">--</div><div class="lbl">Days</div></div>
+      <div class="unit"><div class="num" id="h">--</div><div class="lbl">Hours</div></div>
+      <div class="unit"><div class="num" id="m">--</div><div class="lbl">Minutes</div></div>
+      <div class="unit"><div class="num" id="s">--</div><div class="lbl">Seconds</div></div>
+    </div>
+    <p class="returned" id="returned">🚨 HE HAS RETURNED. HE IS AT THE GYM. MAY GOD HELP THE DUMBBELLS. 🚨</p>
+
+    <div class="meter">
+      <div class="meter-top"><span>Projected Freakiness on Return</span><span><span id="freakPct">0</span>%</span></div>
+      <div class="meter-bar"><div class="meter-fill" id="freakFill"></div></div>
+      <small id="freakLabel"></small>
+    </div>
+  </section>
+
+  <!-- Known behaviors -->
+  <section class="card">
+    <h2>Known Behaviors</h2>
+    <p class="lede">If you see someone doing any of the following, it may be him.</p>
+    <ul class="traits">
+      <li>Sitting on a bench with one leg up like he owns the place</li>
+      <li>Scrolling his phone with the focus of a brain surgeon</li>
+      <li>Wearing a quarter-zip in weather that does not call for a quarter-zip</li>
+      <li>Saying "one more set" and meaning seven more sets</li>
+    </ul>
+  </section>
+
+  <!-- Tips -->
+  <section class="card callout">
+    <h2>Spotted Helper House?</h2>
+    <p>The Committee is accepting all sightings, tips, rumors, and vibes. No lead is too small. No gym is too far.</p>
+    <button class="btn hazard" id="tipBtn">📞 Submit a Tip</button>
+    <p class="response" id="tipResponse" aria-live="polite"></p>
+  </section>
+
+  <!-- Share -->
+  <section class="card">
+    <h2>How You Can Help</h2>
+    <p>Share this page with the group chat. Every share brings Helper House one rep closer to home.</p>
+    <button class="btn" id="shareBtn">Share this page</button>
+    <p class="response" id="shareResponse" aria-live="polite"></p>
+  </section>
+
+  <p class="hashtag">#BringBackHelperHouse</p>
+</main>
+
+<footer>© 2026 Helper House Crisis Committee · Satire · No Helper Houses were harmed in the making of this website.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
