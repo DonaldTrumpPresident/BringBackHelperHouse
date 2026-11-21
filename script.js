@@ -4,10 +4,10 @@ const $ = id => document.getElementById(id);
 // ---------- Countdown (Missing page) ----------
 // SET THE RETURN DATE HERE. Default: 7 days after the page is opened.
 // For a fixed date use e.g.: new Date("2026-11-24T18:00:00")
-const RETURN_DATE = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000);
+const RETURN_DATE = new Date("2026-11-30T07:50:00-05:00");
 
 if ($("countdown")) {
-  const START = Date.now();
+const START = new Date("2026-11-21T00:00:00-05:00").getTime();
   const pad = n => String(n).padStart(2, "0");
   const labels = [
     [0,   "Mildly concerning."],
